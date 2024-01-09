@@ -1,0 +1,288 @@
+
+
+.banner{
+    background-image:linear-gradient(rgba(0,0.0,0.7),rgba(0,0,0,0.7)), url('images/Banner_Image.png');
+    width: 1400px;
+    height: 600px;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+
+.banner-content{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    padding: 250px;
+    font-size: 50px;
+    line-height: 10px
+}
+.banner-content p{
+    font-size: 25px;
+}
+
+
+
+
+.new-brand{
+    width: 1000px;
+}
+
+
+
+
+/* ads section */
+
+.title-description{
+    text-align: center;
+    color: red;
+}
+
+.big-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.all-category{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.ads-img{
+    width: 800px;
+    justify-content: center;
+    margin-left: 300px;
+    align-items: center;
+    height: 500px;
+    flex-shrink: 0;  
+}
+
+
+/* ads section end */
+
+/* 3 content flex */
+
+.best-offer{
+    color: red;
+}
+
+.Holyday{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.coming-soon{
+    margin-right: 40px;
+}
+
+.Holyday img{
+    border-radius: 463px;
+    border: 15px solid #F00
+}
+.twenty-four{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.twenty-four img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.year{
+    color: red;
+}
+
+/* 3 content flex ends */
+
+/*party section  */
+.party{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.party-greeting{
+    color: white;
+    font-size: 50px;
+}
+.party-content{
+    padding-top: 50px;
+}
+.party-description{
+    color: white;
+}
+
+
+.party-image{
+    display: flex;
+}
+/* party section ends */
+
+
+/* girl shopping content */
+.shopping{
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.red-holyday{
+    color: red;
+}
+.image-box{
+    display: flex;
+}
+
+.fifty{
+    padding-left: 550px;
+}
+/* girl-shopping ends */
+
+
+/* image gallery start */
+
+.content-red{
+    color: red;  
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 30px;
+
+}
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.single-img{
+    padding: 0 20px 20px;
+}
+
+.single-img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+/* image gallery ends */
+
+/* newslater start */
+.newslater{
+    margin-top: 15px;
+    background-color: rgba(255, 0, 0, 0.05);;
+    text-align: center;
+}
+
+.newslater input{
+    width: 500px;
+    height: 72px;
+    background: #FFF;
+}
+
+.newslater :placeholder-shown{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.newslater button{
+    background-color: red;
+    color: white;
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* newslater ends   */
+
+   
+
+
+/* footer start */
+.footer-area{
+    margin-top: 40px;
+    background-color: #070211;
+    width: 1500px;
+    height: 600px;
+   
+}
+.footer-img{
+    padding-top: 20px;
+    color: wheat;
+    float: right;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-info{
+    padding-top: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    
+}
+.land{
+    padding-top: 10px;
+    width: 20ox;
+    outline: 10px;
+}
+
+
+.social-links{
+    align-items: center;
+    padding-top: 250px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    /* background: rgba(255, 255, 255, 0.15); */
+   
+}
+hr{
+    background-color:black;
+    width: 40%;
+}
+
+
+
+
+
+
+
+.short-text{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+/* footer ends */
+
+
